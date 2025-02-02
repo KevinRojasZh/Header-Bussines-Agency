@@ -1,0 +1,52 @@
+@mixin font-primary{
+    font-family: $primary-font;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+@mixin font-tittle{
+    font-family: $tittle-font;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+}
+@mixin reset-li-list { 
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    
+}
+@mixin reset-a-list {
+    text-decoration: none;
+    @include font-primary();
+}
+
+@mixin breakpoint($bp){
+
+    @if $bp == tablet {
+        @media (min-width: $bp-tablet){
+            @content;
+        }
+
+    }
+    @if $bp == tablethorizontal {
+        @media (min-width: $bp-tablet-horizontal){
+            @content;
+        }
+
+    }
+    @if $bp == desktop {
+        @media (min-width: $bp-desktop){
+            @content;
+        }
+
+    }
+    @if $bp == destktopxl {
+        @media (min-width: $bp-desktop-xl){
+            @content;
+        }
+
+    }
+
+}

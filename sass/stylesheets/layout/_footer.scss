@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer{
+    display: flex;
+    gap:5%;
+    article{
+        background-color: white;
+        padding: 15px;
+    }
+    img{
+        aspect-ratio: 1/1;
+        width: 64px;
+        margin-bottom: 2%;
+    }
+    h3{
+        font-family: $primary-font;
+        font-size: 24px;
+        font-weight: normal;
+        color:#424241;
+        margin: 0;
+        margin-bottom: 6%;
+
+    }
+    p{
+        font-family: $primary-font;
+        font-size: 16px;
+        color:#909090;
+        margin: 0;
+    }
+}

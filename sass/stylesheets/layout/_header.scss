@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    align-items: center;
+}
+nav{
+    margin-right: 10%;
+}
+
+ul{
+    display: flex;
+    gap: 56px;
+    li{
+        @include reset-li-list;
+    }
+    
+    a{
+        @include reset-a-list;
+        font-size: 18px;
+        color: black;
+    }
+}
+
+.tittle{
+    @include font-primary;
+    font-size: 36px;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
