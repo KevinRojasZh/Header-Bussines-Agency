@@ -66,3 +66,5 @@ Kevin Rojas
 ✉️ kevinrojaszhuma@icloud.com
 
 ¡Gracias por visitar este proyecto! 🚀
+![header-business-agency](https://github.com/user-attachments/assets/071fdbe2-6412-43ce-a8f2-c5b3a974050e)
+
