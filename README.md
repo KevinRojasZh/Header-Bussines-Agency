@@ -65,6 +65,4 @@ Kevin Rojas
 
 ✉️ kevinrojaszhuma@icloud.com
 
-🌐 GitHub
-
 ¡Gracias por visitar este proyecto! 🚀
